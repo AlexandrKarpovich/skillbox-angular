@@ -1,0 +1,28 @@
+<h2>Product Card</h2>
+
+<div class="card">
+    <app-bage></app-bage>
+    <img src="./../../../assets/phone.svg" alt="">
+    <div class="brand">{{brand}}</div>
+    <div class="name">{{name}}</div>
+    <app-rating></app-rating>
+    <div class="price">{{price}}₽</div>
+
+    <div class="btns">
+        <app-button 
+            text="Добавить в корзину"
+            color="primary"
+            size="large"
+            [isDisabled]="false"
+            [active]="false"
+            >
+        </app-button>
+        
+        <app-button-icon 
+            [isactive]="isFavorite" 
+            (click)="toggleFavorite()"
+            >
+        </app-button-icon>
+    </div>
+    
+</div>

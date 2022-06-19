@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-icon-tooltip',
   template: `
-    <p>
-      icon-tooltip works!
-    </p>
+    <h2>Tooltip with Icon</h2>
   `,
   styles: [
   ]

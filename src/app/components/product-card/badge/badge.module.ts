@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BadgeComponent } from './badge.component';
+import { BageComponent } from './badge.component';
 
 
 
@@ -10,7 +10,7 @@ import { BadgeComponent } from './badge.component';
     CommonModule
   ],
   exports: [
-    BadgeComponent
+    BageComponent
   ]
 })
 export class BadgeModule { }

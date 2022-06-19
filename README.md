@@ -10,3 +10,12 @@ Task 1
 
 Task 2
 + add 8 components and modules
+
+
+2.7 
+task 1
++ add: conponents, templates, dynamic styles, pass marameters
++ add component button 
++ add button dynamic style
+
+

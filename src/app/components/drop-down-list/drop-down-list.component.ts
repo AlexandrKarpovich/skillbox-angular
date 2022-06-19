@@ -3,9 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-drop-down-list',
   template: `
-    <p>
-      drop-down-list works!
-    </p>
+    <h2>Dropdown</h2>
+    <app-button text="Dropdown Button" (click)="openList()"></app-button>
   `,
   styles: [
   ]
@@ -16,5 +15,11 @@ export class DropDownListComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  listOpen = false;
 
+  openList() {
+    // return this.listOpen == false ? true : false;
+  }
+    
 }

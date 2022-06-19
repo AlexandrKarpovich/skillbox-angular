@@ -1,20 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-product-card',
-  template: `
-    <p>
-      product-card works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: './product-card.component.html',
+  styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent implements OnInit {
+
+  brand: string = 'Google';
+  name: string = 'Google Pixel 4 64GB';
+  price: number = 54990;
 
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  // size = "primary";
+  // color = "danger";
+
+
+  isFavorite = false;
+  toggleFavorite() {
+    this.isFavorite = !this.isFavorite;
   }
 
 }
