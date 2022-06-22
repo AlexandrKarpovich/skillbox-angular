@@ -8,9 +8,10 @@ import { BageComponent } from './components/product-card/badge/badge.component';
 import { IconComponent } from './components/icon-tooltip/icon/icon.component';
 import { TooltipComponent } from './components/icon-tooltip/tooltip/tooltip.component';
 import { IconTooltipComponent } from './components/icon-tooltip/icon-tooltip.component';
-import { DropDownListComponent } from './components/drop-down-list/drop-down-list.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { ButtonIconComponent } from './components/button-icon/button-icon.component';
+import { DropdownMenuComponent } from './components/dropdown-menu/dropdown-menu.component';
+import { MenuComponent } from './components/dropdown-menu/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +22,10 @@ import { ButtonIconComponent } from './components/button-icon/button-icon.compon
     IconComponent,
     TooltipComponent,
     IconTooltipComponent,
-    DropDownListComponent,
     ProductCardComponent,
-    ButtonIconComponent
+    ButtonIconComponent,
+    DropdownMenuComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule

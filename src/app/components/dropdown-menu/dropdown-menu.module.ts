@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DropDownListComponent } from './drop-down-list.component';
+import { DropdownMenuComponent } from './dropdown-menu.component';
 import { ButtonModule } from '../button/button.module';
+import { MenuModule } from './menu/menu.module';
 
 
 
@@ -9,10 +10,11 @@ import { ButtonModule } from '../button/button.module';
   declarations: [],
   imports: [
     CommonModule,
-    ButtonModule
+    ButtonModule,
+    MenuModule
   ],
   exports: [
-    DropDownListComponent
+    DropdownMenuComponent
   ]
 })
-export class DropDownListModule { }
+export class DropdownMenuModule { }

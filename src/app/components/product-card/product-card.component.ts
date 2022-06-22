@@ -19,9 +19,6 @@ export class ProductCardComponent implements OnInit {
 
   }
 
-  // size = "primary";
-  // color = "danger";
-
 
   isFavorite = false;
   toggleFavorite() {
