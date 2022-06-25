@@ -25,6 +25,6 @@ task 2
 
 3.6
 task 1
-+ 
++ add catalog component, module
 
 
